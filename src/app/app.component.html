@@ -1,0 +1,10 @@
+<div class="main">
+  <div class="container">
+      <h1>Mind Reader</h1>
+      <input placeholder="Choose a number between 1 to 10" (input)="ChoosenNumber($event)">
+
+      <h1>{{choosen}}</h1>
+      <p>{{result}}</p>
+      <button (click)="Restart()">Restart</button>
+  </div>
+</div>

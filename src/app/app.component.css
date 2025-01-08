@@ -1,0 +1,40 @@
+.main{
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    width:500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    width:300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+
+p{
+    width:60%
+}
+
+button{
+    height: 25px;
+    width:70px;
+    background-color: black;
+    color:white;
+    font-weight: 400;
+    cursor: pointer;
+}
