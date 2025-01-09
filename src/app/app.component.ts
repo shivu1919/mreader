@@ -13,7 +13,7 @@ export class AppComponent {
   result:string=''
 
   ChoosenNumber(event:any){
-    if(event.target.value<=10){
+    if(event.target.value<=10 && event.target.value>=1){
       this.choosen='You have choosen: '+event.target.value
 
       if(event.target.value==1){
